@@ -32,8 +32,6 @@ P6 = 1;
 out = sim('Pendulum_LP');
 open_system("Pendulum_LP");
 
-%% Show Plots
-%show_positions(out.tout, out.phi, out.theta);
 
 %% Start Animation
 r = 9.81 * (P3/P6);
