@@ -77,7 +77,7 @@ assignin('base', 'K', K);
 open_system('Pendulum_LP_linear_w_reg_non_linear');
 
 % Launch simulation
-out = sim('Pendulum_LP_linear_w_reg.slx_non_linear');
+out = sim('Pendulum_LP_linear_w_reg_non_linear');
 
 %% Récupération des données des blocs To Workspace
 % Remplacez 'variable1' et 'variable2' par les noms des variables enregistrées dans vos blocs To Workspace
