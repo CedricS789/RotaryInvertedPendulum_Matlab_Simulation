@@ -74,10 +74,10 @@ K = lqr(A_upper,B_upper,Q,R);
 assignin('base', 'K', K);
 
 % Open Simulink file 
-open_system('Pendulum_LP_linear_w_reg_non_linear');
+open_system('Pendulum_LP_linear_w_reg');
 
 % Launch simulation
-out = sim('Pendulum_LP_linear_w_reg_non_linear');
+out = sim('Pendulum_LP_linear_w_reg');
 
 %% Récupération des données des blocs To Workspace
 % Remplacez 'variable1' et 'variable2' par les noms des variables enregistrées dans vos blocs To Workspace
